@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Poetry & Creative Content | Suruti Sharma</title>
+    <meta name="description" content="Original poetry and creative writing pieces by Suruti Sharma."/>
+    <meta name="theme-color" content="#0F0D1A"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="blog.css"/>
+    <style>
+        .coming-soon-container {
+            min-height: 40vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: var(--space-4xl) var(--space-xl);
+        }
+        .coming-soon-icon {
+            font-size: 64px !important;
+            color: var(--color-primary);
+            margin-bottom: var(--space-lg);
+            background: rgba(139, 92, 246, 0.1);
+            padding: 20px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-inner">
+            <a href="index.html#hero" class="navbar-brand">Suruti<span class="brand-accent">.</span></a>
+            <nav class="navbar-links" id="navLinks">
+                <a href="index.html#hero" class="nav-link">Home</a>
+                <a href="index.html#portfolio" class="nav-link">Portfolio</a>
+                <a href="index.html#publications" class="nav-link">Publications</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </nav>
+            <a href="index.html#contact" class="btn btn-primary btn-sm navbar-cta">Hire Me</a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- BLOG HEADER -->
+    <section class="blog-hero" style="min-height: 40vh;">
+        <div class="hero-bg">
+            <div class="blob blob-1" style="background: var(--color-primary);"></div>
+            <div class="blob blob-2" style="background: #EC4899;"></div>
+        </div>
+        <div class="container">
+            <div class="blog-hero-content" data-animate="fade-up">
+                <a href="index.html#portfolio" class="back-link"><span class="material-symbols-outlined">arrow_back</span> Back to Portfolio</a>
+                <span class="section-tag tag-case" style="margin-top: 1.5rem;">Creative Writing</span>
+                <h1 class="blog-title">Poetry & <br><span class="gradient-text" style="background: linear-gradient(135deg, #8B5CF6, #EC4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Creative Content</span></h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG CONTENT -->
+    <section class="blog-body section" style="padding-top: 0;">
+        <div class="container blog-container">
+            <div class="glass-card article-card coming-soon-container" data-animate="fade-up">
+                <span class="material-symbols-outlined coming-soon-icon">hourglass_empty</span>
+                <h2 style="font-family: var(--font-headline); font-size: 2rem; margin-bottom: 1rem;">Content Coming Soon</h2>
+                <p style="color: var(--color-text-muted); font-size: 1.1rem; max-width: 500px;">
+                    I am currently curating my best poetry and creative writing pieces for this section. Check back soon to explore my original works!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" style="margin-top: 60px;">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html#hero" class="navbar-brand" style="font-size: 1.5rem;">Suruti<span class="brand-accent">.</span></a>
+                <p class="footer-tagline">Words that connect. Stories that stay.</p>
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-heading">Quick Links</h4>
+                <a href="index.html#hero">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#portfolio">Portfolio</a>
+                <a href="index.html#publications">Publications</a>
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-heading">Connect</h4>
+                <a href="https://linkedin.com/in/surutisharma" target="_blank">LinkedIn</a>
+                <a href="mailto:sharmasuruti14@gmail.com">Email</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Suruti Sharma. All rights reserved. Crafted with <span style="color: #8B5CF6;">♥</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
