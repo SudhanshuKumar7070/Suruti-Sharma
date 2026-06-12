@@ -983,6 +983,12 @@ img {
     z-index: 1;
     font-size: 64px !important;
     color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transition: var(--transition-base);
+}
+
+.blog-featured:hover .blog-featured-icon {
+    opacity: 1;
 }
 
 .blog-featured-content {
